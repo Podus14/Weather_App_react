@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.input {
+    width: 100%;
+    border-radius: 5px;
+    border: 4px solid white; /* Задаем основной цвет рамки */
+    font-size: 20px;
+    padding-left: 10px;
+    outline: none; 
+}
+input:focus {
+    border-color: #99ccff; /* Измените на нужный цвет, который соответствует фону */
+    /* box-shadow: 0 0 5px #cce7ff; */
+}
+.button {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 0;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.img {
+    padding: 10px ;
+    height: 20px;
+    width: 20px;
+    filter: invert(100%) sepia(0%) saturate(653%) hue-rotate(188deg) brightness(100%) contrast(98%);
+}
+.text {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}

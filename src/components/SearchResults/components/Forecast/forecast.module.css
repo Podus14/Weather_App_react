@@ -1,0 +1,30 @@
+.text {
+    color: blue;
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.container {
+    display: grid;
+    gap: 10px;
+}
+@media screen and (max-width: 600px){
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1300px){
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+
