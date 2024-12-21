@@ -7,7 +7,7 @@ A weather forecasting application built with React and CSS modules.
 ## 🌐 Demo
 
 The application is available at the following link:  
-[👉 View the Weather App](https://weather-app-react-h9yh98n2h-podus14s-projects.vercel.app/)
+[👉 View the Weather App](https://weather-app-react-fawn-theta.vercel.app/)
 
 ---
 
